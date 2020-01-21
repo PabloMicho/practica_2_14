@@ -1,0 +1,112 @@
+/*                                           */
+/* Pablo Michó Fernández                     */
+/*                                           */
+/* CSS ejercicio: Don  Quijote Capítulo 1    */
+/*                                           */
+/* 21/01/2020                                */
+/*                                           */
+
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: left;
+  }
+  
+  p {
+    text-align: justify;
+    line-height: 150%;
+  }
+
+  p.referencias {
+    color: black;
+  }
+  
+  footer {
+    border-top: black 3px solid;
+    color: black;
+  }
+
+@media screen and (max-width: 479px) {
+    html {
+        background-color: #BF4040;
+    }
+
+    p {
+        color: #EAFF00;
+    }
+
+    h1 {
+        color: #EAFF00;
+    }
+
+    h2 {
+        color: #EAFF00;
+    }
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 719px) {
+    html {
+        background-color: #80BF40;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        color: #262673;
+    }
+    
+    h1 {
+        color: #262673;
+    }
+
+    h2 {
+        color: #262673;
+    }
+  }
+
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+    html {
+        background-color: #40BFBF;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    p {
+        color: #660000;
+    }
+
+    h1 {
+        color: #660000;
+    }
+
+    h2 {
+        color: #660000;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    
+    html {
+        background-color: #CCB3E6;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .scrollable-element {
+        scrollbar-color: red;
+      }
+
+    p {
+        color: #8F1414;
+    }
+
+    h1 {
+        color: #8F1414;
+    }
+
+    h2 {
+        color: #8F1414;
+    }
+  }
